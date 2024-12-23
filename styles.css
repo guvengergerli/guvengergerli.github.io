@@ -11,7 +11,7 @@ body {
 }
 
 html {
-    min-width: 500px;
+    min-width: 350px;
 }
 
 header {
@@ -32,7 +32,7 @@ header p {
 }
 
 .container {
-    width: 60%;
+    width: 85%;
     margin: 0 auto;
     overflow: hidden;
     padding: 10px 0;
@@ -140,9 +140,13 @@ main {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
     .main-container {
         width: 95%;
+        flex-direction: column; /* stack children vertically */
+    }
+    .image-container {
+        order: -1; /* move image-container to the top */
     }
     .profile-image {
         max-width: 100%;
