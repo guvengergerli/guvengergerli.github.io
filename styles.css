@@ -7,6 +7,7 @@ body {
     min-height: 100vh;  /* minimum height of viewport */
     display: flex;
     flex-direction: column;  /* stack children vertically */
+    background-color: #f0f0f0; /* slightly gray background */
 }
 
 html {
@@ -66,7 +67,6 @@ ul.social-links a:hover {
 }
 
 footer {
-    background: white;
     color: #999;  /* lighter color */
     text-align: center;
     padding: 10px 0;
