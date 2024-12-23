@@ -1,0 +1,4 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://gergerli.github.io/sitemap.xml
