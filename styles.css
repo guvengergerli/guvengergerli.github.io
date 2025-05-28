@@ -152,3 +152,47 @@ main {
         max-width: 100%;
     }
 }
+
+
+/* Publications section */
+#publications {
+    margin-bottom: 2rem;
+}
+
+.publication-item {
+    display: flex;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+}
+
+.publication-image {
+    flex: 0 0 100px;
+    margin-right: 1rem;
+}
+
+.publication-image img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.publication-details {
+    flex: 1;
+}
+
+.publication-details h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.publication-details p {
+    margin: 0.25rem 0;
+}
+
+.authors {
+    font-style: italic;
+}
+
+.venue {
+    color: #666;
+}
