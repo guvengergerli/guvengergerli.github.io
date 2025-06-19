@@ -196,3 +196,14 @@ main {
 .venue {
     color: #666;
 }
+
+.publication-details a {
+    text-decoration: none;
+    color: #333;
+}
+.publication-image a:hover {
+    text-decoration: underline;
+}
+.publication-details a:hover {
+    text-decoration: underline;
+}
